@@ -17,7 +17,7 @@ const Home = () => {
           </p>
 
           <div>
-            <button className='text-white font-bold px-6 py-3 my-6 flex items-center rounded-md bg-gradient-to-r from-slate-900 to-blue-600'>
+            <button className='text-white px-6 py-3 my-8 mx-30 flex hover:scale-110 duration-700 rounded-2xl bg-gradient-to-r from-cyan-900 to-blue-600'>
               Portfolio
               <span className='ml-2'>
               <RiArrowRightDoubleLine size={25}/>
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={shanto} alt=""   
+          <img src={shanto} alt="" 
            className='rounded-2xl mx-auto 
            md:w-full'/>
         </div>
