@@ -1,6 +1,7 @@
 import React from 'react'
 import shanto from '../assets/shanto.png'
 import {RiArrowRightDoubleLine} from 'react-icons/ri'
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -17,19 +18,17 @@ const Home = () => {
           </p>
 
           <div>
-            <button className='text-white px-6 py-3 my-8 mx-30 flex hover:scale-110 duration-700 rounded-2xl bg-gradient-to-r from-cyan-900 to-blue-600'>
-              Portfolio
+            <Link to='projects' smooth duration={500} className='text-white px-6 py-3 my-8 mx-30 flex hover:scale-110 duration-700 rounded-2xl bg-gradient-to-r from-cyan-900 to-blue-600 w-fit'>
+              Projects
               <span className='ml-2'>
               <RiArrowRightDoubleLine size={25}/>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
         <div>
-          <img src={shanto} alt="" 
-           className='rounded-2xl mx-auto 
-           md:w-full'/>
+          <img src={shanto} alt=""/>
         </div>
       </div>
     </div>
