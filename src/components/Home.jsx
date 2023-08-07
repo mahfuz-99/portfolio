@@ -14,11 +14,11 @@ const Home = () => {
           <p className='text-blue-100 py-5 max-w-lg'>
             I've 1 year of experience web application software.
             Currently, I love to work on web application using technologies like 
-            ReactJS, Tailwind CSS, NextJS and NodeJS. 
+            React, Tailwind CSS, NextJS and NodeJS. 
           </p>
 
           <div>
-            <Link to='projects' smooth duration={500} className='text-white px-6 py-3 my-8 mx-30 flex hover:scale-110 duration-700 rounded-2xl bg-gradient-to-r from-cyan-900 to-blue-600 w-fit'>
+            <Link to='projects' smooth duration={500} className='text-white px-6 py-3 my-8 mx-30 flex hover:scale-110 duration-700 rounded-2xl bg-gradient-to-r from-cyan-900 to-blue-600 w-fit cursor-pointer'>
               Projects
               <span className='ml-2'>
               <RiArrowRightDoubleLine size={25}/>
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={shanto} alt=""/>
+          <img src={shanto} alt="" className='rounded-full border-4 '/>
         </div>
       </div>
     </div>
